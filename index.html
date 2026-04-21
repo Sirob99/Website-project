@@ -15,6 +15,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Diensten</a></li>
                 <li><a href="#about">Over Ons</a></li>
+                <li><a href="#pricing">Prijzen</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -29,7 +30,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Bijles en Huiswerkbeglijding Voor Klas 1 t/m 3</h1>
-            <p>Gespecialiseerd in <strong>Wiskunde</strong> en andere vakken. Les in Petruskerk Vught of online, gegeven door een leerling uit 5 gymnasium. <em>Prijzen: €10 per 30 minuten (in Petruskerk of online), €12,50 per uur (bij jou thuis of andere locatie).</em></p>
+            <p>Gespecialiseerd in <strong>Wiskunde</strong> en andere vakken. Les in Petruskerk Vught of online, gegeven door een leerling uit 5 gymnasium. <em>Prijzen: vanaf €10 per 30 minuten.</em></p>
             <div class="cta-buttons">
                 <button class="btn btn-primary" onclick="smoothScrollTo('#services')">Bekijk Diensten</button>
                 <button class="btn btn-secondary" onclick="openContactForm()">Gratis Consultatie</button>
@@ -126,6 +127,49 @@
         </div>
     </section>
 
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Onze Prijzen</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: var(--text-light); font-size: 16px;">Transparante en duidelijke prijzen. Kies de optie die het beste bij je past.</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>📍 In Petruskerk (Vught)</h3>
+                    <div class="price-item">
+                        <span class="duration">30 minuten</span>
+                        <span class="price">€10</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="duration">1 uur</span>
+                        <span class="price">€20</span>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <h3>💻 Online</h3>
+                    <div class="price-item">
+                        <span class="duration">30 minuten</span>
+                        <span class="price">€10</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="duration">1 uur</span>
+                        <span class="price">€20</span>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <h3>🏠 Bij jou thuis / Andere locatie</h3>
+                    <div class="price-item">
+                        <span class="duration">30 minuten</span>
+                        <span class="price">€12,50</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="duration">1 uur</span>
+                        <span class="price">€25</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -151,11 +195,6 @@
                     <div class="form-group">
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefoonnummer:</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
                     <div class="form-group">
                         <label for="subject">Vak/Onderwerp:</label>
                         <div class="multi-select-container">

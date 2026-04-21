@@ -357,6 +357,84 @@ body {
     text-align: center;
 }
 
+/* Pricing Section */
+.pricing {
+    padding: 80px 0;
+    background-color: var(--bg-white);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.pricing .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.pricing-card {
+    background-color: var(--bg-light);
+    padding: 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.pricing-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-color);
+    transform: translateY(-5px);
+}
+
+.pricing-card h3 {
+    font-size: 20px;
+    color: var(--text-dark);
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.price-item:last-child {
+    border-bottom: none;
+}
+
+.price-item .duration {
+    color: var(--text-light);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price-item .price {
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
 /* Contact Section */
 .contact {
     padding: 80px 0;
